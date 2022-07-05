@@ -20,5 +20,5 @@ public protocol SourceViewScreen {
 
 public protocol ImageSwiperScreen {
     
-    func launch(in vc: UIViewController, images: [URL], prices: [ProductItem?], currentIndex: Int, transitionFrom: UIImageView?, owned: Bool, shopUser: ShopOwner?, shopId: String) -> PassthroughSubject<(Int), Never>
+    func launch(in vc: UIViewController, images: [URL], prices: [ProductItem?], currentIndex: Int, transitionFrom: UIImageView?, owned: Bool, shopUser: ShopOwner?, shopId: String) -> PassthroughSubject<(SourceViewScreen, Int), Never>
 }
