@@ -3,7 +3,7 @@ import ProductProviderApi
 import Combine
 
 public struct ShopOwner {
-    public init(id: String, username: String, avatar: String) {
+    public init(id: String, username: String, avatar: String?) {
         self.id = id
         self.username = username
         self.avatar = avatar
@@ -11,7 +11,7 @@ public struct ShopOwner {
     
     public let id: String
     public let username: String
-    public let avatar: String
+    public let avatar: String?
 }
 
 public protocol SourceViewScreen {
