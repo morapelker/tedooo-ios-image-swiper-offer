@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TedoooImageSwiperOfferScreen'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'image swiper offer'
 
 # This description is used to generate tags and improve search results.
