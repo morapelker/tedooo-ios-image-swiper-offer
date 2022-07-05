@@ -12,15 +12,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2365F3CCE1BEB402B6CF8F8D /* TedoooImageSwiperOfferScreen.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TedoooImageSwiperOfferScreen.podspec; path = ../TedoooImageSwiperOfferScreen.podspec; sourceTree = "<group>"; };
-		27276227351D2A5822CE4FF0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2365F3CCE1BEB402B6CF8F8D /* TedoooImageSwiperOfferScreen.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TedoooImageSwiperOfferScreen.podspec; path = ../TedoooImageSwiperOfferScreen.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		27276227351D2A5822CE4FF0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		55360579350280C45CD7E567 /* Pods_TedoooImageSwiperOfferScreen_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TedoooImageSwiperOfferScreen_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BD4083082640AE50A39FA6 /* Pods-TedoooImageSwiperOfferScreen_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TedoooImageSwiperOfferScreen_Tests.release.xcconfig"; path = "Target Support Files/Pods-TedoooImageSwiperOfferScreen_Tests/Pods-TedoooImageSwiperOfferScreen_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* TedoooImageSwiperOfferScreen_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TedoooImageSwiperOfferScreen_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		D2974E0BCF044DF759B0CFED /* Pods-TedoooImageSwiperOfferScreen_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TedoooImageSwiperOfferScreen_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TedoooImageSwiperOfferScreen_Tests/Pods-TedoooImageSwiperOfferScreen_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EEFB491F1D75EAD2619B26D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EEFB491F1D75EAD2619B26D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,6 @@
 				D2974E0BCF044DF759B0CFED /* Pods-TedoooImageSwiperOfferScreen_Tests.debug.xcconfig */,
 				57BD4083082640AE50A39FA6 /* Pods-TedoooImageSwiperOfferScreen_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -179,12 +175,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TedoooImageSwiperOfferScreen_Tests/Pods-TedoooImageSwiperOfferScreen_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/ProductProviderApi/ProductProviderApi.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 				"${BUILT_PRODUCTS_DIR}/TedoooImageSwiperOfferScreen/TedoooImageSwiperOfferScreen.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProductProviderApi.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TedoooImageSwiperOfferScreen.framework",
 			);

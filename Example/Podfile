@@ -1,3 +1,8 @@
+
+
+source 'https://github.com/morapelker/tedooo-pod-repo.git'
+source 'https://cdn.cocoapods.org/'
+
 use_frameworks!
 target 'TedoooImageSwiperOfferScreen_Tests' do
   pod 'TedoooImageSwiperOfferScreen', :path => '../'
