@@ -14,9 +14,11 @@ public struct ShopOwner {
     public let avatar: String
 }
 
-
+public protocol SourceViewScreen {
+    func setSourceView(newSource: UIImageView?)
+}
 
 public protocol ImageSwiperScreen {
     
-    func launch(in vc: UIViewController, images: [URL], prices: [ProductItem?], currentIndex: Int, transitionFrom: UIImageView?, owned: Bool, shopUser: ShopOwner?, shopId: String) -> PassthroughSubject<Int, Never>
+    func launch(in vc: UIViewController, images: [URL], prices: [ProductItem?], currentIndex: Int, transitionFrom: UIImageView?, owned: Bool, shopUser: ShopOwner?, shopId: String) -> PassthroughSubject<(Int), Never>
 }
